@@ -1,0 +1,6 @@
+1. Zdjêcia
+2. Schemat Arduino (.ino)
+3. Schemat Fritzing
+4. Wideo*
+
+*-opcjonalnie

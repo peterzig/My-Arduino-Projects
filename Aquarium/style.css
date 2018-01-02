@@ -1,0 +1,162 @@
+/* 
+
+title  007F7F
+menu background 07468C
+menu select 077096
+table header 07966E
+
+*/
+
+body {
+    font: 75% Verdana, Helvetica, Arial, sans-serif;
+    background: White;
+    color: #222222;
+    margin: 2em;
+    /* padding: 1em; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: Black;
+    clear: left;
+    font: 100% Verdana, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding-left: 0.5em;
+} 
+
+h1 {
+    font-size: 150%;
+    border-bottom: none;
+    text-align: left;
+    border-bottom: 1px solid Gray;
+}
+    
+h2 {
+    font-size: 130%;
+    border-bottom: 1px solid Gray;
+}
+
+h3 {
+    font-size: 120%;
+    border-bottom: 1px solid Gray;
+}
+
+h4 {
+    font-size: 110%;
+    border-bottom: 1px solid Gray;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: underline;
+    color: Black;
+}
+
+table {
+	border-collapse:collapse;
+
+}
+
+th, td {
+	border: 1px solid #07966E;
+	padding:3px 7px 2px 7px;
+}
+
+th {
+	padding-top:5px;
+	padding-bottom:4px;
+	background-color:#07966E;
+	border: 1px solid white;
+	color:#fff;
+
+}
+
+tr.alt td 
+{
+	color:#000;
+	background-color:#77baba;
+}
+
+
+#title {
+	width: 95%;
+	background: #007F7F;
+	color: white;
+	margin: 10px;
+	padding: 10px;
+	overflow: hidden;
+        font: bold 14px Verdana;
+}
+
+.menu {
+    width: 100%;
+    overflow: hidden;
+border-bottom: 10px solid #077096; 
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    font: bold 12px Verdana;
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline;
+margin: 0;
+}
+
+.menu li a{
+float: left;
+display: block;
+text-decoration: none;
+margin: 0;
+padding: 7px 8px; 
+border-right: 1px solid white; 
+color: white;
+background: #07468C; 
+}
+
+.menu li a:visited {
+color: white;
+}
+
+.menu li a:hover, .menu li.selected a{
+background: #077096; 
+}
+
+.green {
+	color: #5fa239;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.red {
+	color: #cc0000;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.orange {
+	color: #ff9900;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#status {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	color: #aaa;
+	background: #f0f0f0;
+	padding: 5px 10px;
+	width: 100%;
+	height: 15px;
+}
+
+#version {
+	float: right;
+	padding-right: 20px;
+}
